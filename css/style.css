@@ -17,10 +17,13 @@ body {
   box-sizing: border-box;
 }
 
+
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
   padding: 0px;
 }
+
 
 ul, ol {
   list-style: none;
@@ -87,6 +90,23 @@ header {
   padding: 10px 12px;
 }
 
+@media (max-width: 599px) { 
+  header .container {
+    width: 100%;
+    margin: 5px 0px;
+  }
+
+  #logo {
+    margin-left: 7px;
+  }
+
+  .nav li a {
+    padding: 10px 5px;
+    font-size: 13px;
+  }
+
+}
+
 .home_bg {
   background-image: url(../images/sapphire.jpg);
   background-size: cover;
@@ -115,6 +135,17 @@ header {
   color: #fff;
   text-transform: capitalize;
   font-size: 54px;
+  line-height: 65px;
+
+
+}
+
+@media (max-width: 599px) { 
+  .container_table_cell h2 {
+
+  font-size: 42px;
+  margin-bottom: 20px;
+  }
 }
 
 .social_icons a {
@@ -243,6 +274,12 @@ h2 {
   text-transform: capitalize;
 }
 
+@media (max-width: 599px) { 
+  .service-content h3 {
+  font-size: 15px;
+  }
+}
+
 .service-content p {
   color: #767676;
   font-size: 14px;
@@ -297,14 +334,21 @@ h3.resume-subtitle {
   text-transform: capitalize;
 }
 
+@media (max-width: 599px) { 
+  .resume-detail h4 {
+    font-size: 14px;
+  }
+}
+
 .resume-detail h6 {
   font-size: 12px;
   margin-bottom: 9px;
   text-transform: capitalize;
 }
 
-.resume-detail p {
+.resume-detail p, li {
   line-height: 22px;
+  font-weight: 200;
 }
 
 .resume-detail ol {
