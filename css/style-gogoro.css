@@ -171,8 +171,27 @@ h2 {
 }
 
 .badges {
-  width: 70px;
+  width: 60px;
   display: inline-block
+}
+
+.button-group a {
+  display: block;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 38px;
+  text-transform: capitalize;
+}
+
+.button-group a:hover {
+  background: #000;
+  color: #fff;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
 }
 
 footer {
