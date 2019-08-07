@@ -110,7 +110,7 @@ header {
 }
 
 .home_bg {
-  background-image: url(../images/portfolio/coolface-app/home-bg.svg);
+  background-color: #F1F8F7;
 
   background-position: 0px 45px;
   background-repeat: no-repeat;
