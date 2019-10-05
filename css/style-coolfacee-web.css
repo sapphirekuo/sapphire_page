@@ -52,6 +52,10 @@ img {
   position: relative;
 }
 
+.text-blue {
+  color: #295781;
+}
+
 section {
   padding: 100px 0;
 }
@@ -119,6 +123,10 @@ header {
   height: 100%;
 }
 
+.home_bg img {
+  width: 120px;
+}
+
 .container_table {
   display: table;
   width: 100%;
@@ -134,7 +142,7 @@ header {
 }
 
 .container_table_cell h2 {
-  color: #fff;
+  color: #295781;
   text-transform: capitalize;
   font-size: 54px;
   line-height: 65px;
@@ -161,8 +169,8 @@ h2 {
 }
 
 
-.info, .user-story, .style-guide, .prototype {
-  background-color: #f9f9f9;
+.functions, .results {
+  background-color: #F1F8F7;
 }
 
 
